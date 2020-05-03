@@ -1,0 +1,80 @@
+.jumbotron{
+	margin-left: 3rem;
+	text-align: center;
+	background-image: 
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    background-color: black;
+}
+#div1 {
+	animation-timing-function: linear;
+	font-size: 3rem;
+	width: 300px;
+  	height: 50px;
+  	color: white;
+  	background-color: maroon;
+  	font-weight: bold;
+  	position: relative;
+  	animation-duration: 5s;
+  	animation-fill-mode: forwards;
+	animation: mymove 10s infinite;
+}
+#div2 {
+	animation-timing-function: linear;
+	font-size: 3rem;
+	width: 300px;
+  	height: 50px;
+  	color: white;
+  	background-color: maroon;
+  	font-weight: bold;
+  	position: relative;
+  	animation-duration: 5s;
+	animation: mymove 10s infinite;
+}
+#div3 {
+	animation-timing-function: ease-in;
+	font-size: 3rem;
+	width: 500px;
+  	height: 50px;
+  	color: white;
+  	background-color: maroon;
+  	font-weight: bold;
+  	position: relative;
+  	animation-duration: 3s;
+	animation: mymove 10s infinite;
+}
+#div4 {
+	animation-timing-function: ease-out;
+	font-size: 3rem;
+	width: 300px;
+  	height: 50px;
+  	color: white;
+  	background-color: maroon;
+  	font-weight: bold;
+  	position: relative;
+  	animation-duration: 8s;
+	animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1000px;}
+}
+img {
+  
+}
+body {
+  background-color: lightblue;
+}
+h3{
+	margin-left: 2rem;
+}
+li {
+    font-size: 15px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: Verdana;
+}

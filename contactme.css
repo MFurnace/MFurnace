@@ -1,0 +1,200 @@
+/* Test to see if this works*/
+body{
+	padding: 2px;
+	background-color: gray;
+	font-family:muli;
+	font-size: 15px;
+}/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+/* Test to see if this works*/
+}
+.google-font-text {
+    font-family: 'Proza Libre', sans-serif;
+}
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: maroon;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: white;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.Resume {
+		text-align: left;
+		text-align-last: left;
+	}
+.Contactme {
+		text-align: center;
+		text-align-last: center;
+	}
+
+.My5favoriterestaurants {
+		text-align: right;
+		text-align-last;
+	}
+.background {
+		background-color: gray;
+	}
+
+/*No focus = Changes the background color of input to red*/
+.function blurFunction() {
+  document.getElementById("lastname").style.background: gray;
+}
+
+nav li {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Lucida Console;
+	margin-right: 30px;
+}
+h1 {
+	color:maroon;
+	font-family: Muli, sans-serif;
+	font-size: 40px;
+}
+
+h2 {
+	color:maroon;
+	font-size: 30px;
+	font-family: Muli, sans-serif;
+}
+h3 {
+	color:maroon;
+	font-size: 30px;
+	font-family: Muli, sans-serif;
+}
+img {
+  width:60px;
+  height:auto;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+li a {
+  text-decoration: none;
+}
+/* Link Box Styles */
+#linkBox_content:hover #linkBox_img {
+	transform: scale(1.25);
+}
+#linkBox_content {
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img {
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	color: white;
+	font-size: 25px;
+	font-family: Lucida Console;
+}
+#usrform{
+	background-color:gray;
+}
+/* Use commas to seperate multiple selectors and apply the same rule to all */
+table, th, td {
+	border: 3px solid black;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align: left;
+}
+table {
+	position:relative;
+	background-color: maroon;
+	padding: 5px;
+	margin: 0 0; /* When there is two numbers, the first number is for top+bottom, the second is for right+left */
+}
+th, td {
+	background-color: white;
+	padding: 5px;
+}
+form input, form select {
+	display:block;
+}
+.inline{
+	display: inline;
+}
+
+div-1 {
+    display: flex;
+    border:5px;
+    margin: 0px;
+    padding-bottom:3px;
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-between;
+    align-items: center;
+ }
+div-2 {
+     border: 5px #ccc solid;
+     padding:20px;
+     justify-content:flex-left;
+     align-items: stretch;   
+     align-content:flex-start;
+}
+
+.box-1{
+    flex: 1;
+    order: 1;
+    font-family:
+    }
+
+.box-2{
+    flex: 2;
+    order: 2;
+    }
+ 
+.box-3{
+     flex: 3;
+     order: 3;
+    }
+ footer{
+	display: inline-block;
+	position: relative;
+   	top:20px;
+   	left: 0;
+   	bottom: 20;
+   	width: 100%;
+   	height: 50%
+   	color: maroon;
+   	text-align: left;
+}

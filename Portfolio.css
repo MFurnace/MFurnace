@@ -1,0 +1,132 @@
+ img{
+ 	width: 800px;
+ 	height: 200px;
+ 	padding-top: 20%;
+ }
+ .background-image: url('img_girl.jpg');
+ 
+ div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+ .flex-container {
+ 	display:-webkit-flex;
+ 	display: flex;
+ 	width: 400px;
+ 	height:250px;
+ } 
+ .bg-cover{
+	background-attachment:static;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body {
+	background-color: ;
+	display: flex; 
+}
+.google-font-text {
+    font-family: 'Proza Libre', sans-serif;
+}
+.active {
+  background-color: #4CAF50;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+.background {
+		background-color: #566a8a;
+}
+
+.flex-container{
+	color:blue;
+	display:flex;
+	height:300px;
+	background-color:#eeee;
+	justify-content:space-between:
+	text-align: left;
+}
+nav li {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Roboto;
+	margin-left: 30px;
+}
+li {
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: Verdana;
+    text-align: left;
+}
+li a {
+  text-decoration: none;
+}
+h3 {
+	color:maroon;
+	font-size: 30px;
+	font-family: Muli, sans-serif;
+	display: inline;
+}
+h5{
+	color:maroon;
+	font-size: 30px;
+	font-family: Muli, sans-serif;
+	display: inline;
+
+}
+form input, form select {
+	display:inline;
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

@@ -1,0 +1,83 @@
+.container {
+	text-align: justify;
+	text-align: center;
+	border-bottom-color: black;
+	}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+	/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+nav li {
+  display:inline;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Lucida Console;
+  margin-right: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.food{
+	color:blue;
+	font-family: geometric sans-serif;
+  font-size: 20px;
+}
+.exl{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+li a: hover {
+  list-style: none;
+  display:inline;
+  font-size: 20px;
+  font-family: Arial;
+  color: blue;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+form input, form select {
+  display:block;
+}
+.inline{
+  display: inline;
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: maroon;
+  text-align: left;
+  border: 3px solid #73AD21;
+}
